@@ -71,6 +71,9 @@
   text-align: center;
   margin-bottom: 5px;
   background-color: #a5dfe5;
+  font-weight: 500;
+  color: #333;
+  border-radius: 5px;
 }
 .cv-card-body{
 
@@ -89,6 +92,7 @@
 }
 .cv-profile-university *{
   font-size: 1em ;
+  padding-left: 0.6em;
 }
 .cv-profile-university{
   display: flex;
