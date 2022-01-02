@@ -85,5 +85,34 @@
   margin-right: 5px;
 }
 .cv-card-body-row *{
-  font-size: 0.8em;
+  font-size: 0.9em;
+}
+.cv-profile-university *{
+  font-size: 1em ;
+}
+.cv-profile-university{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cv-card-project{
+
+}
+.cv-card-project-title{
+  font-size: 1em;
+}
+.cv-project-title__name{
+  font-size: 1em;
+  font-weight: 700;
+}
+.cv-project-title__description{
+  font-size: 1em;
+}
+.cv-card-project-time{
+  font-size: 1em;
+  padding-left: 0.6em;
+}
+.cv-project-description{
+  font-size: 1em;
+  padding-left: 2em;
 }
