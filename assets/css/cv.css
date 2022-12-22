@@ -99,8 +99,19 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.cv-profile-experience{
+  font-size: 1em;
+}
+.cv-profile-experience-item *{
+  font-size: 1em ;
+}
+.cv-profile-experience-item{
+}
 .cv-card-project{
-
+  
+}
+.cv-profile-experience-item__meta{
+  padding-left: 0.6em;
 }
 .cv-card-project-title{
   font-size: 1em;
