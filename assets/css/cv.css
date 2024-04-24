@@ -51,14 +51,12 @@
 }
 .cv-abstract-info{
   margin-top: 7px;
-  font-size: 15px;
+  font-size: 12pt;
   font-style: italic;
-}
-.cv-body{
-
 }
 .cv-body-row{
   display: flex;
+  justify-content: space-between;
 }
 .cv-body-col-left{
   width: 40%;
@@ -67,6 +65,11 @@
 .cv-body-col-right{
   width: 60%;
 }
+.cv-body-row > .cv-card{
+  flex-basis: 32%;
+  font-size: 12pt;
+}
+
 .cv-card{
   padding: 5px 10px;
   background-color: #fff;
@@ -75,8 +78,9 @@
   margin-bottom: 12px;
 }
 .cv-card-title{
-  text-align: center;
+  text-align: left;
   margin-bottom: 5px;
+  padding: 0px 5px;
   background-color: #a5dfe5;
   font-weight: 500;
   color: #333;
@@ -87,7 +91,10 @@
 }
 .cv-card-body-row{
   padding: 5px 0;
-  font-size: 1em;
+  font-size: 14pt;
+}
+.link{
+  font-size: 12pt;
 }
 .cv-card-body-row i{
   color: #a5dfe5;
