@@ -50,6 +50,7 @@
   font-weight: 700;
 }
 .cv-abstract-info{
+  text-align: justify;
   margin-top: 7px;
   font-size: 12pt;
   font-style: italic;
