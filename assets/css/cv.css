@@ -1,3 +1,7 @@
+.list-items ol,ul{
+  padding-left: 20px;
+}
+
 .cv-container{
   width: 100%;
   display: flex;
@@ -79,7 +83,7 @@
   margin-bottom: 12px;
 }
 .cv-card-title{
-  text-align: left;
+  text-align: center;
   margin-bottom: 5px;
   padding: 0px 5px;
   background-color: #a5dfe5;
