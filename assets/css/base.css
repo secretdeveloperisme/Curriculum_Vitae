@@ -12,4 +12,14 @@ html,body,h1,h2,h3,h4,h5,h6,p {font-family: "Roboto", sans-serif}
   margin: 0;
   padding: 0;
 }
+.space-y-5 > :not(:last-child) {
+  --tw-space-y-reverse: 0;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
 
+.space-y-10 > :not(:last-child) {
+  --tw-space-y-reverse: 0;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
