@@ -90,6 +90,7 @@
   font-weight: 500;
   color: #333;
   border-radius: 5px;
+  font-size: 18px;
 }
 .cv-card-body{
 
@@ -130,19 +131,21 @@
 .cv-profile-experience-item *{
   font-size: 1em ;
 }
-.cv-profile-experience-item{
+.cv-profile-experience-item + .cv-profile-experience-item{
+  margin-top: 15px;
 }
 .cv-card-project{
   
 }
 .cv-profile-experience-item__meta{
   padding-left: 1em;
+  font-size: 15px;
 }
 .cv-card-project-title{
   font-size: 1em;
 }
 .cv-project-title__name{
-  font-size: 1em;
+  font-size: 18px;
   font-weight: 700;
 }
 .cv-project-title__description{
@@ -155,4 +158,9 @@
 .cv-project-description{
   font-size: 1em;
   padding-left: 2em;
+}
+
+.cv-project-details{
+  margin-top: 5px;
+  padding-left: 15px;
 }
