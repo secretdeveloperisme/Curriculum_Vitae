@@ -160,7 +160,15 @@
   padding-left: 2em;
 }
 
+.cv-project-details, .cv-profile-experience-abstract{
+  padding-left: 15px;
+}
+
 .cv-project-details{
   margin-top: 5px;
-  padding-left: 15px;
+}
+
+.cv-profile-experience-abstract{
+  font-size: 1em;
+  margin-top: 5px;
 }
